@@ -3,7 +3,7 @@
 //   throw result.error;
 // }
 // console.log(result.parsed); // This will show the parsed content of your .env file
-//const API_KEY = process.env.APIKEYS;
+// const API_KEY = process.env.APIKEYS;
 const API_KEY = "Zskt6hH20PhdrOAaAUWYqg2DmgM";
 const API_URL = "https://ci-jshint.herokuapp.com/api";
 
@@ -21,7 +21,7 @@ function processOptions(form) {
             optArray.push(entry[1]);
         }
     }    
-    
+
     form.delete("options");
 
     form.append("options", optArray.join());
